@@ -12,5 +12,5 @@ Build:
   tasks:
     - script:
       - echo 'Hello World!'
-other:
-  force-stop-build: false
+    - checkout:
+       force-clean-build: 'false'
