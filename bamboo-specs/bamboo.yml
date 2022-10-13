@@ -14,3 +14,6 @@ Build:
       - echo 'Hello World!'
     - checkout:
        force-clean-build: 'false'
+    - checkout:
+       repository: Bamboo
+       force-clean-build: 'false'
