@@ -12,6 +12,5 @@ Build:
   tasks:
     - script:
       - echo 'Hello World!'
-Build binaries:
-  other:
-    force-stop-build: false
+other:
+  force-stop-build: false
